@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Admin_Module">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +21,10 @@
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
             android:value="ocr" />
 
+        <activity android:name=".Cus_Mod" />
+        <activity android:name=".Admin_Reg" />
+        <activity android:name=".Cus_Reg" />
+        <activity android:name=".Login"></activity>
     </application>
 
 </manifest>

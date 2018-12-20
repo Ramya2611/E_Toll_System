@@ -11,4 +11,5 @@
         <item>Bus</item>
 
     </string-array>
+    <string name="title_activity_cust__mod">Cust_Mod</string>
 </resources>

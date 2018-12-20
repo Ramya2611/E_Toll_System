@@ -35,9 +35,9 @@ import com.google.firebase.ml.vision.text.RecognizedLanguage;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class Admin_Module extends AppCompatActivity {
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "Admin_Module";
 
 
     TextView NumberPlate;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.ad_mod);
         NumberPlate = (TextView) findViewById(R.id.number);
     }
 
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                                 new OnFailureListener() {
                                     @Override
                                     public void onFailure(@NonNull Exception e) {
-                                        Toast.makeText(MainActivity.this,"Failed to recognise from Image",Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(Admin_Module.this,"Failed to recognise from Image",Toast.LENGTH_SHORT).show();
                                     }
                                 });
 
