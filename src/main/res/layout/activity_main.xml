@@ -28,6 +28,7 @@
     <SearchView
         android:layout_marginTop="20dp"
         android:layout_width="240dp"
+
         android:layout_height="30dp" />
 
 </LinearLayout>
