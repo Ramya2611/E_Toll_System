@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "133496065833",
+    "firebase_url": "https://e-toll-b6e02.firebaseio.com",
+    "project_id": "e-toll-b6e02",
+    "storage_bucket": "e-toll-b6e02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133496065833:android:1f4e5e675aadee55",
+        "android_client_info": {
+          "package_name": "com.example.ramya.etoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133496065833-ogmobhdgkv3ovi20bksnbv2dnbm1ups1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw3y44uD0WHwA5CsM96hpG3UTi-vEcACs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

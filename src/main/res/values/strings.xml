@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">EToll</string>
+
+    <string name="country_prompt">Choose Type</string>
+
+    <string-array name="Veh_Type">
+        <item>Car</item>
+        <item>LUV</item>
+        <item>SUV</item>
+        <item>Truck</item>
+        <item>Bus</item>
+
+    </string-array>
 </resources>
