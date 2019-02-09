@@ -4,12 +4,37 @@
     <string name="country_prompt">Choose Type</string>
 
     <string-array name="Veh_Type">
-        <item>Car</item>
-        <item>LUV</item>
-        <item>SUV</item>
-        <item>Truck</item>
-        <item>Bus</item>
+        <item>Car/Jeep/Van</item>
+        <item>LCV</item>
+        <item>Bus/Truck</item>
+        <item>Upto 3 Axle Vehicle</item>
+        <item>4 to 6 Axle</item>
+        <item>7 or more Axle</item>
+        <item>HCM/EME</item>
 
+    </string-array>
+
+    <string-array name="From">
+        <item>Chennai</item>
+        <item>Bangalore</item>
+        <item>Kanchipuram</item>
+        <item>Vellore</item>
+        <item>Hosur</item>
+    </string-array>
+
+    <string-array name="To">
+        <item>Chennai</item>
+        <item>Bangalore</item>
+        <item>Kanchipuram</item>
+        <item>Vellore</item>
+        <item>Hosur</item>
+    </string-array>
+
+    <string-array name="Journey_Type">
+        <item>Single Journey</item>
+        <item>Return Journey</item>
+        <item>Monthly Pass</item>
+        <item>Commercial Vehicle</item>
     </string-array>
     <string name="title_activity_cust__mod">Cust_Mod</string>
 </resources>

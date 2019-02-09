@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Admin_Module">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +23,9 @@
 
         <activity android:name=".Cus_Mod" />
         <activity android:name=".Admin_Reg" />
+        <activity android:name=".Admin_Module" />
         <activity android:name=".Cus_Reg" />
-        <activity android:name=".Login"></activity>
+        <activity android:name=".Cus_Wallet"></activity>
     </application>
 
 </manifest>

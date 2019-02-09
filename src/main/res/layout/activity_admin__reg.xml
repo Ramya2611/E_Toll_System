@@ -13,160 +13,178 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:gravity="center"
             android:orientation="vertical">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Admin Registration"/>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/fname"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-
-                    android:text="First Name"/>
+                android:text="Admin Registration"
+                android:textStyle="bold"
+                android:textColor="#37474F"
+                android:textSize="23sp"
+                android:fontFamily="serif"
+                android:padding="10dp"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <EditText
                     android:id="@+id/ad_fname"
-                    android:layout_width="240dp"
+                    android:layout_width="fill_parent"
                     android:inputType="textPersonName"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/lname"
-                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif"
 
+                    android:hint="First Name"/>
+            </android.support.design.widget.TextInputLayout>
 
-                    android:text="Last Name"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
                 <EditText
                     android:id="@+id/ad_lname"
-                    android:layout_width="240dp"
+                    android:layout_width="fill_parent"
                     android:inputType="textPersonName"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/mobno"
-                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mobile No."/>
+                    android:fontFamily="serif"
+
+                    android:hint="Last Name"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <EditText
                     android:id="@+id/ad_mobno"
-                    android:layout_width="240dp"
+                    android:layout_width="fill_parent"
                     android:inputType="phone"
+                    android:fontFamily="serif"
+
+                    android:hint="Mobile Number"
                     android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/email"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Email Id"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <EditText
                     android:id="@+id/ad_email"
                     android:ems="10"
                     android:inputType="textEmailAddress"
-                    android:layout_width="240dp"
+                    android:hint="Email Id"
+                    android:fontFamily="serif"
+
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/dob"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Date of Birth"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <EditText
                     android:id="@+id/ad_dob"
-                    android:layout_width="240dp"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:hint="Date of Birth"
+                    android:fontFamily="serif"
+
                     android:inputType="date"/>
+            </android.support.design.widget.TextInputLayout>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/toll_loc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Toll Location"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <EditText
-                    android:id="@+id/ad_toll_loc"
-                    android:layout_width="240dp"
+                    android:id="@+id/ad_address"
+                    android:layout_width="fill_parent"
+                    android:hint="Address"
+                    android:fontFamily="serif"
+
                     android:layout_height="wrap_content"
                     android:inputType="textPostalAddress"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/ad_toll_loc"
+                    android:layout_width="fill_parent"
+                    android:hint="Toll Location"
+                    android:fontFamily="serif"
 
-            </LinearLayout>
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/ad_epm_id"
+                    android:layout_width="fill_parent"
+                    android:hint="Employee Id"
+                    android:fontFamily="serif"
 
-
+                    android:layout_height="wrap_content"
+                    android:inputType="number"/>
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/sel_photo"
+                android:text="Photo"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-
                 android:orientation="horizontal">
                 <TextView
                     android:id="@+id/photo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Photo"/>
-                <EditText
-                    android:id="@+id/ad_img_photo"
-                    android:layout_width="240dp"
-                    android:layout_height="wrap_content" />
+                    android:text="No file Selected"
+                    />
+                <Button
+                    android:id="@+id/upl_photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="Upload"/>
+
+
 
             </LinearLayout>
 
 
 
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
 
+
+            <Button
+                android:id="@+id/sel_kyc"
+                android:text="KYC Doc"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <TextView
-                    android:id="@+id/kyc"
+                    android:id="@+id/kyc_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="KYC Document"/>
-                <EditText
-                    android:id="@+id/ad_doc_kyc"
-                    android:layout_width="240dp"
-                    android:layout_height="wrap_content" />
+                    android:text="No file Selected"
+                    />
+                <Button
+                    android:id="@+id/upl_kyc"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload"/>
+
+
 
             </LinearLayout>
 
@@ -175,6 +193,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
+                android:layout_marginTop="10dp"
                 android:text="Register"
                 />
 
