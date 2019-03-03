@@ -138,6 +138,7 @@
             android:padding="10dp"
             android:textSize="15sp"/>
        <TextView
+           android:id="@+id/distance"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="in Kms"/>
@@ -156,6 +157,7 @@
             android:padding="10dp"
             android:textSize="15sp"/>
         <TextView
+            android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="in Hrs"/>
@@ -174,6 +176,7 @@
                     android:padding="10dp"
                     android:textSize="15sp"/>
                 <TextView
+                    android:id="@+id/cost"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="in Rs"/>
