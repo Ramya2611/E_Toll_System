@@ -27,7 +27,7 @@ public class Cus_Mod extends AppCompatActivity {
 
     Button Profile,search;
     Spinner from_station, to_station,mode_travel,type_journey;
-    TextView distance,time,cost;
+    TextView distance,time,cost,station1,station2,station3;
 
 
     @Override
@@ -38,6 +38,9 @@ public class Cus_Mod extends AppCompatActivity {
         distance=findViewById(R.id.distance);
         time=findViewById(R.id.time);
         cost=findViewById(R.id.cost);
+        station1=findViewById(R.id.station1);
+        station2=findViewById(R.id.station2);
+        station3=findViewById(R.id.station3);
 
         from_station=findViewById(R.id.from_station);
 
@@ -78,6 +81,9 @@ public class Cus_Mod extends AppCompatActivity {
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                station1.setVisibility(TextView.GONE);
+                station2.setVisibility(TextView.GONE);
+                station3.setVisibility(TextView.GONE);
 
                 get_json();
                // Toast.makeText(Cus_Mod.this,"On Click Listener"+String.valueOf(from_station.getSelectedItem()),Toast.LENGTH_LONG).show();
@@ -117,10 +123,37 @@ public class Cus_Mod extends AppCompatActivity {
                 JSONObject obj = jsonArray.getJSONObject(i);
 
                 if (Boolean.valueOf(from_station.getSelectedItem().equals(obj.getString("from")))
-                        && Boolean.valueOf(to_station.getSelectedItem().equals(obj.getString("to")))){
+                        && Boolean.valueOf(to_station.getSelectedItem().equals(obj.getString("to")))
+                        && Boolean.valueOf(mode_travel.getSelectedItem().equals(obj.getString("mode")))
+                        && Boolean.valueOf(type_journey.getSelectedItem().equals(obj.getString("journey")))){
                     distance.setText(obj.getString("distance"));
                     time.setText(obj.getString("time"));
                     cost.setText(obj.getString("charges"));
+
+
+                    if (obj.getString("station1").equals("")){
+                        station1.setVisibility(TextView.GONE);
+                    }else{
+                        station1.setVisibility(TextView.VISIBLE);
+                        station1.setText(obj.getString("station1"));
+                    }
+
+
+                    if (obj.getString("station2").equals("")){
+                        station2.setVisibility(TextView.GONE);
+                    }else{
+                        station2.setVisibility(TextView.VISIBLE);
+                        station2.setText(obj.getString("station2"));
+                    }
+
+
+                    if (obj.getString("station3").equals("")){
+                        station3.setVisibility(TextView.GONE);
+                    }else{
+                        station3.setVisibility(TextView.VISIBLE);
+                        station3.setText(obj.getString("station3"));
+                    }
+
                 }
 
                 /*if (obj.getString("from").equals("Tambaram")){

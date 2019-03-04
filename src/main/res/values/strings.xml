@@ -16,18 +16,18 @@
 
     <string-array name="From">
         <item>Chennai</item>
-        <item>Bangalore</item>
+        <item>Pondicherry</item>
         <item>Kanchipuram</item>
         <item>Vellore</item>
-        <item>Hosur</item>
+        <item>Tirupati</item>
     </string-array>
 
     <string-array name="To">
         <item>Chennai</item>
-        <item>Bangalore</item>
+        <item>Pondicherry</item>
         <item>Kanchipuram</item>
         <item>Vellore</item>
-        <item>Hosur</item>
+        <item>Tirupati</item>
     </string-array>
 
     <string-array name="Journey_Type">

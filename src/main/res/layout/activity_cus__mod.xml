@@ -5,14 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
     android:orientation="vertical"
     tools:context=".Cus_Mod">
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
 
@@ -38,14 +39,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
+        android:padding="10dp"
         android:layout_gravity="center_horizontal"
         android:orientation="horizontal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From"
-        android:padding="10dp"
+        android:text="From "
+
         android:textSize="15sp"/>
         <Spinner
             android:id="@+id/from_station"
@@ -59,13 +61,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:padding="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="To"
-            android:padding="10dp"
+            android:text="To "
+
             android:textSize="15sp"/>
         <Spinner
             android:id="@+id/to_station"
@@ -79,13 +82,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:padding="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mode of Travel"
-            android:padding="10dp"
+
+            android:text="Mode of Travel "
+
             android:textSize="15sp"/>
         <Spinner
             android:id="@+id/mode_travel"
@@ -99,13 +104,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:padding="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Journey Type "
-                    android:padding="10dp"
+
+
                     android:textSize="15sp"/>
 
                 <Spinner
@@ -162,7 +169,39 @@
             android:layout_height="wrap_content"
             android:text="in Hrs"/>
 
+
     </LinearLayout>
+            <TextView
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toll Plazas"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/station1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/station2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/station3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -183,12 +222,7 @@
 
             </LinearLayout>
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
-
-    </ListView>
             <Button
                 android:id="@+id/pay"
                 android:layout_width="wrap_content"

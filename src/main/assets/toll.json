@@ -2,24 +2,267 @@
   {
     "from":"Chennai",
     "to":"Kanchipuram",
+    "mode":"Car/Jeep/Van",
+    "journey":"Single Journey",
     "distance":"72.7 Km",
-    "time":"1 hr 55 mins",
+    "time":"1 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.55",
     "charges":"Rs. 55"
     
   },
+
+  {
+  "from":"Chennai",
+  "to":"Kanchipuram",
+  "mode":"LCV",
+  "journey":"Single Journey",
+  "distance":"72.7 Km",
+  "time":"1 Hr 55 Mins",
+  "station1":"Sriperumbudur-Rs.85",
+  "charges":"Rs. 85"
+
+},
+  {
+    "from":"Chennai",
+    "to":"Kanchipuram",
+    "mode":"Bus/Truck",
+    "journey":"Single Journey",
+    "distance":"72.7 Km",
+    "time":"1 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.180",
+    "charges":"Rs. 180"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Kanchipuram",
+    "mode":"Upto 3 Axle Vehicle",
+    "journey":"Single Journey",
+    "distance":"72.7 Km",
+    "time":"1 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.200",
+    "charges":"Rs. 200"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Kanchipuram",
+    "mode":"4 to 6 Axle",
+    "journey":"Single Journey",
+    "distance":"72.7 Km",
+    "time":"1 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.285",
+    "charges":"Rs. 285"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Kanchipuram",
+    "mode":"HCM/EME",
+    "journey":"Single Journey",
+    "distance":"72.7 Km",
+    "time":"1 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.275",
+    "charges":"Rs. 275"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Kanchipuram",
+    "mode":"7 or more Axle ",
+    "journey":"Single Journey",
+    "distance":"72.7 Km",
+    "time":"1 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.350",
+    "charges":"Rs. 350"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Vellore",
+    "mode":"Car/Jeep/Van",
+    "journey":"Single Journey",
+    "distance":"139 Km",
+    "time":"2 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.55",
+    "station2":"Chennasamudram-Rs.55",
+    "charges":"Rs. 110"
+
+  },{
+  "from":"Chennai",
+  "to":"Vellore",
+  "mode":"LCV",
+  "journey":"Single Journey",
+  "distance":"139 Km",
+  "time":"2 Hr 55 Mins",
+  "station1":"Sriperumbudur-Rs.85",
+  "station2":"Chennasamudram-Rs.85",
+  "charges":"Rs. 170"
+
+},
+  {
+    "from":"Chennai",
+    "to":"Vellore",
+    "mode":"Bus/Truck",
+    "journey":"Single Journey",
+    "distance":"139 Km",
+    "time":"2 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.180",
+    "station2":"Chennasamudram-Rs.180",
+    "charges":"Rs. 360"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Vellore",
+    "mode":"Upto 3 Axle Vehicle",
+    "journey":"Single Journey",
+    "distance":"139 Km",
+    "time":"2 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.200",
+    "station2":"Chennasamudram-Rs.195",
+    "charges":"Rs. 395"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Vellore",
+    "mode":"4 to 6 Axle",
+    "journey":"Single Journey",
+    "distance":"139 Km",
+    "time":"2 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.285",
+    "station2":"Chennasamudram-Rs.280",
+    "charges":"Rs. 565"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Vellore",
+    "mode":"7 or more Axle",
+    "journey":"Single Journey",
+    "distance":"139 Km",
+    "time":"2 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.350",
+    "station2":"Chennasamudram-Rs.340",
+    "charges":"Rs. 690"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Vellore",
+    "mode":"HCM/EME",
+    "journey":"Single Journey",
+    "distance":"139 Km",
+    "time":"2 Hr 55 Mins",
+    "station1":"Sriperumbudur-Rs.275",
+    "station2":"Chennasamudram-Rs.270",
+    "charges":"Rs. 545"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"Car/Jeep/Van",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.47",
+    "station2":"S V puram-Rs.65",
+    "charges":"Rs. 112"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"LCV",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.82",
+    "station2":"S V puram-Rs.100",
+    "charges":"Rs. 182"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"Bus/Truck",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.163",
+    "station2":"S V puram-Rs.210",
+    "charges":"Rs. 373"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"Upto 3 Axle Vehicle",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.262",
+    "station2":"S V puram-Rs.320",
+    "charges":"Rs. 582"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"4 to 6 Axle",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.262",
+    "station2":"S V puram-Rs.320",
+    "charges":"Rs. 582"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"7 or more Axle",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.262",
+    "station2":"S V puram-Rs.405",
+    "charges":"Rs. 667"
+
+  },
+  {
+    "from":"Chennai",
+    "to":"Tirupati",
+    "mode":"HCM/EME",
+    "journey":"Single Journey",
+    "distance":"133 Km",
+    "time":"3 Hr 20 Mins",
+    "station1":"Nallur-Rs.262",
+    "station2":"S V puram-Rs.320",
+    "charges":"Rs. 582"
+  },
+
   {
     "from":"Pondicherry",
     "to":"Kanchipuram",
+    "mode":"Car/Jeep/Van",
     "distance":"117 Km",
-    "time":"2 hr 28 mins",
+    "time":"2 Hr 28 Mins",
+    "station1":"Morattandi-Rs.40",
     "charges":"Rs. 40"
     
   },
   {
     "from":"Vellore",
     "to":"Hosur",
+    "mode":"Car/Jeep/Van",
     "distance":"174 Km",
-    "time":"2 hr 42 mins",
+    "time":"2 Hr 42 Mins",
+    "station1":"Pallikonda-Rs.85",
+    "station2":"Vaniyambadi-Rs.80",
+    "station3":"Krishnagiri-Rs.65",
     "charges":"Rs. 230"
     
   },
@@ -27,7 +270,7 @@
     "from":"Tambaram",
     "to":"Chengalpattu",
     "distance":"36.5 Km",
-    "time":"1 hr 0 mins",
+    "time":"1 Hr",
     "charges":"Rs. 60"
     
   },
@@ -35,7 +278,7 @@
     "from":"Kanchipuram",
     "to":"Vellore",
     "distance":"70.4 Km",
-    "time":"1 hr 20 mins",
+    "time":"1 Hr 20 Mins",
     "charges":"Rs. 55"
     
   }
