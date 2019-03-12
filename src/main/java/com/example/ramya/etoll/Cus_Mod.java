@@ -1,6 +1,7 @@
 package com.example.ramya.etoll;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ public class Cus_Mod extends AppCompatActivity {
     ArrayList<String> numberList = new ArrayList<>();
 
 
-    Button Profile,search;
+    Button Profile,search,Pay;
     Spinner from_station, to_station,mode_travel,type_journey;
     TextView distance,time,cost,station1,station2,station3;
 
@@ -41,6 +42,8 @@ public class Cus_Mod extends AppCompatActivity {
         station1=findViewById(R.id.station1);
         station2=findViewById(R.id.station2);
         station3=findViewById(R.id.station3);
+
+        Pay=findViewById(R.id.pay);
 
         from_station=findViewById(R.id.from_station);
 
@@ -102,9 +105,21 @@ public class Cus_Mod extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Pay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                openDialog();
+            }
+        });
     }
 
+    public void openDialog(){
+        Bill mBill = new Bill();
+        mBill.show(getSupportFragmentManager(),"mBill");
 
+    }
 
     public void get_json(){
         String json;
@@ -131,6 +146,7 @@ public class Cus_Mod extends AppCompatActivity {
                     cost.setText(obj.getString("charges"));
 
 
+
                     if (obj.getString("station1").equals("")){
                         station1.setVisibility(TextView.GONE);
                     }else{
@@ -154,6 +170,12 @@ public class Cus_Mod extends AppCompatActivity {
                         station3.setText(obj.getString("station3"));
                     }
 
+                }else{
+                    station1.setVisibility(TextView.VISIBLE);
+                    station1.setText("No toll available in Shortest Path");
+                    distance.setText("");
+                    time.setText("");
+                    cost.setText("");
                 }
 
                 /*if (obj.getString("from").equals("Tambaram")){

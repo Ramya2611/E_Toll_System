@@ -69,6 +69,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <EditText
+                    android:id="@+id/ad_password"
+                    android:layout_width="fill_parent"
+                    android:inputType="textVisiblePassword"
+                    android:fontFamily="serif"
+
+                    android:hint="Password"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
                     android:id="@+id/ad_email"
                     android:ems="10"
                     android:inputType="textEmailAddress"
